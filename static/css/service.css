@@ -25,6 +25,13 @@ body{
     .container{
         width: 100%;
         background:radial-gradient(circle,rgb(76, 175, 241),rgb(10, 82, 110)) ;
+        margin-top: 20px;
+    }
+    .container:hover{
+        transform: scale(1.1);
+        transition: 0.5;
+        background-color: green;
+        color: white;
     }
 }
 
@@ -46,9 +53,16 @@ body{
     .container{
         width: 65%;
         background:radial-gradient(circle,rgb(76, 175, 241),rgb(10, 82, 110)) ;
+        margin-top: 20px;
     }
     .col-md-6 .col-lg-6{
         width: 80%;
+    }
+    .container:hover{
+        transform: scale(1.1);
+        transition: 0.5;
+        background-color: green;
+        color: white;
     }
 }
 svg:hover{
